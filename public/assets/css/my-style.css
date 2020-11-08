@@ -1,0 +1,281 @@
+/*
+Theme Name: Thai Cong
+Author: Chuá»‘i
+Description: Thai Cong theme for wordpress
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: golden, premium, custom to anything with Thai Cong style theme
+Text Domain: thaicong
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* SOME CSS */
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:0 0 1em 1em}
+a img.alignleft {float:left; margin:0 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+.news-detail__content img { max-width: 100%; }
+
+.wrap-content-detail img, .wrap-content-detail iframe {
+    text-align: center;
+    display: table;
+    margin: 15px auto;
+    height: auto;
+}
+
+/* CSS LOADER */
+#page-loader {
+	display: none;
+	position: relative;
+	z-index: 1500;
+}
+.sidebar-title {
+	color: #ED145B;
+}
+.sidebar-title span {
+    vertical-align: baseline;
+    font-size: 0.8em;
+    /*top: 3px;*/
+    -webkit-text-stroke: 1px white;
+}
+#page-loader .loader-ov {
+	background: #fff;
+	opacity: 0.7;
+	filter: alpha(opacity=20);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100000;
+}
+#page-loader .loader-content{
+	position: fixed;
+	top: 40%;
+	left: 0;
+	z-index: 100001;
+	width: 100%;
+}
+
+.bg_processing{
+	width: 200px;
+	background: #fff;
+	margin: 0 auto;
+	border: 10px solid #00b3f1;
+	text-align: center;
+	padding: 25px 0;
+	line-height: 25px;
+	font-family: 'Cuprum', Arial;
+	font-size: 16px;
+}
+
+.cssload-loading {
+	position: relative;
+	width: 19px;
+	height: 19px;
+	background: rgb(0,0,0);
+	display:block;
+	margin: auto;
+	animation: 1.15s cssload-spin infinite;
+		-o-animation: 1.15s cssload-spin infinite;
+		-ms-animation: 1.15s cssload-spin infinite;
+		-webkit-animation: 1.15s cssload-spin infinite;
+		-moz-animation: 1.15s cssload-spin infinite;
+}
+.cssload-loading::before, .cssload-loading::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	animation: 0.58s infinite alternate linear
+}
+.cssload-loading::before {
+	background: rgb(139,98,50);
+		-o-animation: 0.58s infinite alternate linear
+}
+.cssload-loading::before {
+	background: rgb(139,98,50);
+		-ms-animation: 0.58s infinite alternate linear
+}
+.cssload-loading::before {
+	background: rgb(139,98,50);
+		-webkit-animation: 0.58s infinite alternate linear
+}
+.cssload-loading::before {
+	background: rgb(139,98,50);
+		-moz-animation: 0.58s infinite alternate linear
+}
+.cssload-loading::before {
+	background: rgb(139,98,50);
+	animation-name: cssload-blur1;
+		-o-animation-name: cssload-blur1;
+		-ms-animation-name: cssload-blur1;
+		-webkit-animation-name: cssload-blur1;
+		-moz-animation-name: cssload-blur1;
+}
+.cssload-loading::after {
+	background: rgb(255,255,255);
+	animation-name: cssload-blur2;
+		-o-animation-name: cssload-blur2;
+		-ms-animation-name: cssload-blur2;
+		-webkit-animation-name: cssload-blur2;
+		-moz-animation-name: cssload-blur2;
+}
+
+
+
+
+
+
+
+@keyframes cssload-spin {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@-o-keyframes cssload-spin {
+	to {
+		-o-transform: rotate(360deg);
+	}
+}
+
+@-ms-keyframes cssload-spin {
+	to {
+		-ms-transform: rotate(360deg);
+	}
+}
+
+@-webkit-keyframes cssload-spin {
+	to {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@-moz-keyframes cssload-spin {
+	to {
+		-moz-transform: rotate(360deg);
+	}
+}
+
+@keyframes cssload-blur1 {
+	to {
+		transform: rotate(-30deg);
+	}
+}
+
+@-o-keyframes cssload-blur1 {
+	to {
+		-o-transform: rotate(-30deg);
+	}
+}
+
+@-ms-keyframes cssload-blur1 {
+	to {
+		-ms-transform: rotate(-30deg);
+	}
+}
+
+@-webkit-keyframes cssload-blur1 {
+	to {
+		-webkit-transform: rotate(-30deg);
+	}
+}
+
+@-moz-keyframes cssload-blur1 {
+	to {
+		-moz-transform: rotate(-30deg);
+	}
+}
+
+@keyframes cssload-blur2 {
+	to {
+		transform: rotate(-15deg);
+	}
+}
+
+@-o-keyframes cssload-blur2 {
+	to {
+		-o-transform: rotate(-15deg);
+	}
+}
+
+@-ms-keyframes cssload-blur2 {
+	to {
+		-ms-transform: rotate(-15deg);
+	}
+}
+
+@-webkit-keyframes cssload-blur2 {
+	to {
+		-webkit-transform: rotate(-15deg);
+	}
+}
+
+@-moz-keyframes cssload-blur2 {
+	to {
+		-moz-transform: rotate(-15deg);
+	}
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 85px;
+    right: 5px;
+    z-index: 100;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    background: #e0e2e0;
+    color: #444;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+#back-to-top:hover {
+    background: #e9ebec;
+}
+#back-to-top.show {
+    opacity: 1;
+}
+#content {
+    height: 2000px;
+}
+
+.video-player__title {
+	margin-bottom: 10px;
+}
+.video-player__desc {
+	margin-bottom: 10px;
+	font-style: italic;
+	font-size: 1em;
+}
+.news-detail__content iframe,
+.news-detail__content audio {
+	width: 100%;
+	/*height: auto;*/
+}
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
