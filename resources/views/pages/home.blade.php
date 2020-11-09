@@ -190,14 +190,60 @@
                 eros vel fermentum consectetur, risus purus tempc, et iaculis odio dolor in ex. </p>
         </div>
 
-        <!-- Social Icons -->
-        <ul class="social_icons">
-            <li><a href="#."><i class="icon-social-facebook"></i></a></li>
-            <li><a href="#."><i class="icon-social-twitter"></i></a></li>
-            <li><a href="#."><i class="icon-social-tumblr"></i></a></li>
-            <li><a href="#."><i class="icon-social-youtube"></i></a></li>
-            <li><a href="#."><i class="icon-social-dribbble"></i></a></li>
-        </ul>
+        <!-- New Arrival -->
+        <div class="arrival-block">
+
+            @for ($i = 0; $i < 8; $i++) <!-- Item -->
+                <div class="item">
+                    <!-- Images -->
+                    <img class="img-1" src="images/item-img-1-1.jpg" alt=""> <img class="img-2"
+                        src="images/item-img-1-1-1.jpg" alt="">
+                    <!-- Overlay  -->
+                    <div class="overlay">
+                        <!-- Price -->
+                        <div class="position-center-center"> <a href="images/item-img-1-1.jpg" data-lighter><i
+                                    class="icon-magnifier"></i></a> </div>
+                    </div>
+                    <!-- Item Name -->
+                </div>
+                @endfor
+
+        </div>
+
+        <div class="row margin-top-50">
+            @for ($i = 0; $i < 3; $i++) 
+            <div class="col-md-4">
+                <h6>Câu chuyện VIPHOME</h6>
+                <hr>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="images/item-img-1-1.jpg" alt="" width="100px" height="100px">
+                    </div>
+                    <div class="col-sm-8">
+                        <p class="blog-title">VIHome trao vàng tài lộc đến anh Nhưỡng - Hồ Tùng Mậu</p>
+                        <p class="blog-content">Các mẫu thiết kế phòng ngủ nhỏ siêu đẹp</p>
+                    </div>
+                </div>
+
+                <ul class="list-group" style="padding-left: 20px">
+                    <li class="blog-menu">Dapibus ac facilisis in</li>
+                    <li class="blog-menu">This is a light list group item</li>
+                    <li class="blog-menu">This is a dark list group item</li>
+                  </ul>
+            </div>
+            @endfor
+
+    </div>
+
+    <!-- Social Icons -->
+    <ul class="social_icons">
+        <li><a href="#."><i class="icon-social-facebook"></i></a></li>
+        <li><a href="#."><i class="icon-social-twitter"></i></a></li>
+        <li><a href="#."><i class="icon-social-tumblr"></i></a></li>
+        <li><a href="#."><i class="icon-social-youtube"></i></a></li>
+        <li><a href="#."><i class="icon-social-dribbble"></i></a></li>
+    </ul>
+
     </div>
 </section>
 <section class="news-letter padding-top-150 padding-bottom-150">
