@@ -1,0 +1,11 @@
+.container-achievement {
+    background-color: #f3f3f3;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
