@@ -14,6 +14,9 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
+    {{-- <link href="{{asset('furniture/css/bootstrap.min.css')}}" rel="stylesheet"> --}}
+    {{-- <link href="{{asset('furniture/css/bootstrap-grid.min.css')}}" rel="stylesheet">
+    <link href="{{asset('furniture/css/bootstrap-reboot.min.css')}}" rel="stylesheet"> --}}
 
     <!-- Custom CSS -->
     <link href="{{asset('css/font-awesome.min.css')}}" rel="stylesheet" type="text/css">
@@ -21,7 +24,7 @@
     <link href="{{asset('css/main.css')}}" rel="stylesheet">
     <link href="{{asset('css/style.css')}}" rel="stylesheet">
     <link href="{{asset('css/responsive.css')}}" rel="stylesheet">
-    <link href="{{asset('assets/css/furniture.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/css/furniture.css')}}" rel="stylesheet" type="text/css">
 
     <!-- JavaScripts -->
     <script src="{{asset('js/modernizr.js')}}"></script>
@@ -65,10 +68,10 @@
                         <li data-transition="random" data-slotamount="7" data-masterspeed="300"
                             data-saveperformance="off">
                             <!-- MAIN IMAGE -->
-                            <img src="images/slide-bg-1.jpg" alt="slider" data-bgposition="center center"
+                            <img src="images/products/banner-2.jpeg" alt="slider" data-bgposition="center center"
                                 data-bgfit="cover" data-bgrepeat="no-repeat">
                             <!-- LAYERS -->
-                            <!-- LAYER NR. 1 -->
+                            {{-- <!-- LAYER NR. 1 -->
                             <div class="tp-caption font-playfair sfb tp-resizeme" data-x="left" data-hoffset="0"
                                 data-y="center" data-voffset="-200" data-speed="800" data-start="500"
                                 data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none"
@@ -100,18 +103,18 @@
                             <div class="tp-caption lfb tp-resizeme" data-x="left" data-hoffset="0" data-y="center"
                                 data-voffset="240" data-speed="800" data-start="2200" data-easing="Power3.easeInOut"
                                 data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
-                                data-scrolloffset="0" style="z-index: 8;"><a href="#." class="btn">SHOP NOW</a> </div>
+                                data-scrolloffset="0" style="z-index: 8;"><a href="#." class="btn">SHOP NOW</a> </div> --}}
                         </li>
 
                         <!-- SLIDE  -->
                         <li data-transition="random" data-slotamount="7" data-masterspeed="300"
                             data-saveperformance="off">
                             <!-- MAIN IMAGE -->
-                            <img src="images/slide-bg-2.jpg" alt="slider" data-bgposition="center center"
+                            <img src="images/products/banner-3.jpeg" alt="slider" data-bgposition="center center"
                                 data-bgfit="cover" data-bgrepeat="no-repeat">
                             <!-- LAYERS -->
                             <!-- LAYER NR. 1 -->
-                            <div class="tp-caption font-playfair sfb tp-resizeme" data-x="center" data-hoffset="0"
+                            {{-- <div class="tp-caption font-playfair sfb tp-resizeme" data-x="center" data-hoffset="0"
                                 data-y="center" data-voffset="-150" data-speed="800" data-start="500"
                                 data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none"
                                 data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
@@ -143,7 +146,7 @@
                                 data-hoffset="-120" data-y="center" data-voffset="200" data-speed="800"
                                 data-start="2200" data-easing="Power3.easeInOut" data-elementdelay="0.1"
                                 data-endelementdelay="0.1" data-endspeed="300" data-scrolloffset="0"
-                                style="z-index: 8;"><a href="#." class="btn">BUY NOW</a> </div>
+                                style="z-index: 8;"><a href="#." class="btn">BUY NOW</a> </div> --}}
                         </li>
                     </ul>
                 </div>

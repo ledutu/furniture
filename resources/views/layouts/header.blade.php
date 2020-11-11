@@ -3,7 +3,7 @@
         <div class="container">
 
             <!-- Logo -->
-            <div class="logo"> <a href="index.html"><img class="img-responsive" src="images/logo.png" alt=""></a> </div>
+            <div class="logo"> <a href="index.html"><img width="200px" height="50px" src="images/logo.png" alt=""></a> </div>
             <nav class="navbar ownmenu">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -15,70 +15,18 @@
                 <!-- NAV -->
                 <div class="collapse navbar-collapse" id="nav-open-btn">
                     <ul class="nav">
-                        <li class="dropdown active"> <a href="#." class="dropdown-toggle"
-                                data-toggle="dropdown">Home</a>
+                        <li class="dropdown active"> <a href="#." class="dropdown-toggle" data-toggle="dropdown">trang
+                                chủ</a>
                             <ul class="dropdown-menu">
                                 <li> <a href="index.html">Index Default</a> </li>
                                 <li> <a href="index-1.html">Index 2</a> </li>
-                                <li> <a href="index-2.html">Index 3</a></li>
-                                <li> <a href="index-header-1.html">Index Header 1</a></li>
-                                <li> <a href="index-header-2.html">Index Header 2</a></li>
-                                <li> <a href="index-header-3.html">Index Header 3</a></li>
-                                <li> <a href="index-header-4.html">Index Header 4</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown"> <a href="#." class="dropdown-toggle" data-toggle="dropdown">Pages</a>
-                            <ul class="dropdown-menu">
-                                <li> <a href="shop_01.html">Shop 01 </a> </li>
-                                <li> <a href="shop_02.html">Shop 02</a> </li>
-                                <li> <a href="shop_03.html">Shop 03 </a> </li>
-                                <li> <a href="shop_04.html">Shop 04 </a> </li>
-                                <li> <a href="product-detail_01.html">Product Detail 01</a> </li>
-                                <li> <a href="product-detail_02.html">Product Detail 02</a> </li>
-                                <li> <a href="shopping-cart.html">Shopping Cart</a> </li>
-                                <li> <a href="checkout.html">Checkout</a> </li>
-                                <li> <a href="about-us_01.html">About 01</a> </li>
-                                <li> <a href="about-us_02.html">About 02</a> </li>
-                                <li> <a href="contact.html">Contact</a> </li>
-                                <li> <a href="blog-list_01.html">Blog List 01</a> </li>
-                                <li> <a href="blog-list_02.html">Blog List 02</a> </li>
-                                <li> <a href="blog-list_03.html">Blog List 03 </a> </li>
-                                <li> <a href="blog-detail_01.html">Blog Detail 01 </a> </li>
-                            </ul>
-                        </li>
-                        <li> <a href="about-us_01.html">About </a> </li>
-
-                        <!-- Two Link Option -->
-                        <li class="dropdown"> <a href="#." class="dropdown-toggle" data-toggle="dropdown">Designer</a>
-                            <div class="dropdown-menu two-option">
-                                <div class="row">
-                                    <ul class="col-sm-6">
-                                        <li> <a href="shop_01.html">summer store</a></li>
-                                        <li> <a href="shop_01.html"> sarees</a></li>
-                                        <li> <a href="shop_01.html"> kurtas</a></li>
-                                        <li> <a href="shop_01.html"> shorts & tshirts</a></li>
-                                        <li> <a href="shop_01.html"> winter wear</a></li>
-                                        <li> <a href="shop_01.html"> jeans</a></li>
-                                        <li> <a href="shop_01.html"> bra</a></li>
-                                        <li> <a href="shop_01.html"> babydools</a> </li>
-                                    </ul>
-                                    <ul class="col-sm-6">
-                                        <li> <a href="shop_01.html">deodornts</a></li>
-                                        <li> <a href="shop_01.html"> skin care</a></li>
-                                        <li> <a href="shop_01.html"> make up</a></li>
-                                        <li> <a href="shop_01.html"> watch</a></li>
-                                        <li> <a href="shop_01.html"> siting bags</a></li>
-                                        <li> <a href="shop_01.html"> totes</a></li>
-                                        <li> <a href="shop_01.html"> gold rings</a></li>
-                                        <li> <a href="shop_01.html"> jewellery</a> </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
+                        <li> <a href="about-us_01.html">Về Eric decor </a> </li>
 
                         <!-- MEGA MENU -->
                         <li class="dropdown megamenu"> <a href="#." class="dropdown-toggle"
-                                data-toggle="dropdown">store</a>
+                                data-toggle="dropdown">Sản phẩm</a>
                             <div class="dropdown-menu">
                                 <div class="row">
 
@@ -167,7 +115,9 @@
                                 </div>
                             </div>
                         </li>
-                        <li> <a href="contact.html"> contact</a> </li>
+                        <li> <a href="contact.html"> Thi công</a> </li>
+                        <li> <a href="contact.html"> Blog</a> </li>
+                        <li> <a href="contact.html"> liên hệ</a> </li>
                     </ul>
                 </div>
 
@@ -176,7 +126,7 @@
                     <ul class="navbar-right">
 
                         <!-- USER INFO -->
-                        <li class="dropdown user-acc"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                        {{-- <li class="dropdown user-acc"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"
                                 role="button"><i class="icon-user"></i> </a>
                             <ul class="dropdown-menu">
                                 <li>
@@ -186,7 +136,7 @@
                                 <li><a href="#">ACCOUNT INFO</a></li>
                                 <li><a href="#">LOG OUT</a></li>
                             </ul>
-                        </li>
+                        </li> --}}
 
                         <!-- USER BASKET -->
                         <li class="dropdown user-basket"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"

@@ -24,3 +24,13 @@
     padding-top: 15px;
     font-weight: 700;
 }
+
+.light-gray-bg {
+    background-repeat: no-repeat !important;
+    width: 100% !important;
+    background-size: contain !important;
+}
+
+.navbar-custom {
+    
+}

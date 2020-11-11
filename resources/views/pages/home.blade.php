@@ -9,22 +9,22 @@
             <div class="text-center achievement">
                 <div class="row">
                     <div class="col-md-3 col-sm-6">
-                        <img src="images/cart-img-1.jpg" alt="" width="70px" height="70px">
+                        <img src="images/products/chair-logo.png" alt="" width="70px" height="70px">
                         <p class="title">Tiết kiệm thời gian</p>
                         <p>Tìm kiếm và chọn lựa sản phẩm một cách trực quan và nhanh chống</p>
                     </div>
                     <div class="col-md-3 col-sm-6">
-                        <img src="images/cart-img-1.jpg" alt="" width="70px" height="70px">
+                        <img src="images/products/chair-logo.png" alt="" width="70px" height="70px">
                         <p class="title">Sản phẩm chất lượng</p>
                         <p>Chất lượng sản phẩm luôn được đảm bảo, cam kết 100% hàng chính hãng</p>
                     </div>
                     <div class="col-md-3 col-sm-6">
-                        <img src="images/cart-img-1.jpg" alt="" width="70px" height="70px">
+                        <img src="images/products/chair-logo.png" alt="" width="70px" height="70px">
                         <p class="title">Giá tốt nhất</p>
                         <p>Viphome mang đến cho khách hạng mức và giá hợp lý</p>
                     </div>
                     <div class="col-md-3 col-sm-6">
-                        <img src="images/cart-img-1.jpg" alt="" width="70px" height="70px">
+                        <img src="images/products/chair-logo.png" alt="" width="70px" height="70px">
                         <p class="title">Giao hàng nhanh</p>
                         <p>Giao hàng và vận chuyển nhanh một cách nhanh chống</p>
                     </div>
@@ -35,48 +35,48 @@
 
 </section>
 
-
 <!-- Popular Products -->
 <section class="padding-bottom-150">
     <div class="container">
 
         <!-- Main Heading -->
         <div class="heading text-center">
-            <h4>popular products</h4>
+            <h4>Mẫu sofa nhập bán chạy</h4>
+            <hr>
             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus maximus vehicula.
                 Sed feugiat, tellus vel tristique posuere, diam</span>
         </div>
 
         <!-- Popular Item Slide -->
-        <div class="papular-block block-slide">
-
-            @for ($i = 0; $i < 5; $i++) <!-- Item -->
-                <div class="item">
-                    <!-- Item img -->
-                    <div class="item-img"> <img class="img-1" src="images/product-1.jpg" alt=""> <img class="img-2"
-                            src="images/product-2.jpg" alt="">
-                        <!-- Overlay -->
-                        <div class="overlay">
-                            <div class="position-center-center">
-                                <div class="inn"><a href="images/product-1.jpg" data-lighter><i
-                                            class="icon-magnifier"></i></a> <a href="#." data-toggle="tooltip"
-                                        data-placement="top" title="Add To Cart"><i class="icon-basket"></i></a>
-                                    <a href="#." data-toggle="tooltip" data-placement="top" title="Add To WishList"><i
-                                            class="icon-heart"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Item Name -->
-                    <div class="item-name"> <a href="#.">stone cup</a>
-                        <p>Lorem ipsum dolor sit amet</p>
-                    </div>
-                    <!-- Price -->
-                    <span class="price"><small>$</small>299</span>
+        <div class="row">
+            @for ($i = 0; $i < 8; $i++) <!-- Item -->
+                <div class="col-md-3 text-center margin-bottom-50">
+                    <a href="">
+                        <!-- Item img -->
+                        <img class="img-1" src="images/products/sofa-1.jpeg" alt="" width="270px" height="250px">
+                        <!-- Item Name -->
+                        <h6>Sofa phòng khách</h6>
+                        <!-- Price -->
+                        <span class="price" style="margin-top: 10px">199,300,000đ</span>
+                    </a>
                 </div>
                 @endfor
         </div>
+        <nav aria-label="">
+            <ul class="pager">
+                <li><a href="#">Previous</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">Next</a></li>
+            </ul>
+        </nav>
+
     </div>
+
 </section>
+
+
 
 <!-- San pham khuyen mai -->
 <section class="padding-bottom-150">
@@ -84,19 +84,19 @@
 
         <!-- Main Heading -->
         <div class="heading text-center">
-            <h4>best price products</h4>
+            <h4>Sản phẩm khuyến mãi</h4>
             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus maximus vehicula.
                 Sed feugiat, tellus vel tristique posuere, diam</span>
         </div>
 
         <!-- Popular Item Slide -->
-        <div class="papular-block block-slide">
+        {{-- <div class="papular-block block-slide">
 
             @for ($i = 0; $i < 5; $i++) <!-- Item -->
                 <div class="item">
                     <!-- Item img -->
-                    <div class="item-img"> <img class="img-1" src="images/product-1.jpg" alt=""> <img class="img-2"
-                            src="images/product-2.jpg" alt="">
+                    <div class="item-img"> <img class="img-1" src="images/products/sofa-1.jpeg" alt=""> <img
+                            class="img-2" src="images/products/sofa-1.jpeg" alt="">
                         <!-- Overlay -->
                         <div class="overlay">
                             <div class="position-center-center">
@@ -109,82 +109,133 @@
                         </div>
                     </div>
                     <!-- Item Name -->
-                    <div class="item-name"> <a href="#.">stone cup</a>
-                        <p>Lorem ipsum dolor sit amet</p>
+                    <div class="item-name"> <a href="#.">Sofa phòng khách</a>
                     </div>
                     <!-- Price -->
-                    <span class="price"><small>$</small>299</span>
+                    <span class="price" style="margin-top: 10px">199,300,000đ</span>
+                </div>
+                @endfor
+        </div> --}}
+
+        <!-- Popular Item Slide -->
+        <div class="row">
+            @for ($i = 0; $i < 8; $i++) <!-- Item -->
+                <div class="col-md-3 text-center margin-bottom-50">
+                    <a href="">
+                        <!-- Item img -->
+                        <img class="img-1" src="images/products/sofa-1.jpeg" alt="" width="270px" height="250px">
+                        <!-- Item Name -->
+                        <h6>Sofa phòng khách</h6>
+                        <!-- Price -->
+                        <span class="price" style="margin-top: 10px">199,300,000đ</span>
+                    </a>
                 </div>
                 @endfor
         </div>
+        <nav aria-label="">
+            <ul class="pager">
+                <li><a href="#">Previous</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">Next</a></li>
+            </ul>
+        </nav>
     </div>
 </section>
 
-<!-- Knowledge Share -->
-<section class="light-gray-bg padding-top-150 padding-bottom-150">
+<section class="padding-top-100 padding-bottom-100">
     <div class="container">
 
         <!-- Main Heading -->
         <div class="heading text-center">
-            <h4>knowledge share</h4>
+            <h4>new arrival</h4>
             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus maximus vehicula.
                 Sed feugiat, tellus vel tristique posuere, diam</span>
         </div>
+    </div>
 
-        <div class="text-center">
-            <button class="btn btn-primary">Watch now</button>
-        </div>
+    <!-- New Arrival -->
+    <div class="arrival-block">
+
+        @for ($i = 0; $i < 4; $i++) <!-- Item -->
+            <div class="div">
+                <div class="item">
+                    <!-- Images -->
+                    <img class="img-1" src="images/products/sofa-1.jpeg" alt="">
+                    @if ($i == 1)
+                    <div class="item-name">
+                        <div class="heading text-center">
+                            <h4>Bộ sưu tập 2020 mang phong cách hiện đại</h4>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                                faucibus maximus
+                                vehicula.
+                                Sed feugiat, tellus vel tristique posuere, diam</span>
+                        </div>
+
+                        <div class="text-center">
+                            <button class="btn btn-primary">Xem ngay</button>
+                        </div>
+                    </div>
+                    @endif
+
+                </div>
+            </div>
+            @endfor
+
     </div>
 </section>
 
 <!-- Testimonial -->
 <section class="testimonial padding-top-100">
     <div class="container">
-        <div class="row">
-            <div class="col-sm-6">
+        <div class="heading text-center">
+            <h4>Hình ảnh khách hàng thực tế</h4>
+        </div>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
 
-                <!-- SLide -->
-                <div class="single-slide">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/products/home.jpeg" alt="Los Angeles">
+                </div>
 
-                    <!-- Slide -->
-                    <div class="testi-in"> <i class="fa fa-quote-left"></i>
-                        <p>Phasellus lacinia fermentum bibendum. Interdum et malesuada fames ac ante ipsum
-                            primis in faucibus. Sed ullamcorper sapien lacus, eu posuere odio luctus non.
-                            Nulla lacinia, eros vel fermentum consectetur, risus p</p>
-                        <h5>john smith</h5>
-                    </div>
+                <div class="item">
+                    <img src="images/products/home.jpeg" alt="Chicago">
+                </div>
 
-                    <!-- Slide -->
-                    <div class="testi-in"> <i class="fa fa-quote-left"></i>
-                        <p>Phasellus lacinia fermentum bibendum. Interdum et malesuada fames ac ante ipsum
-                            primis in faucibus. Sed ullamcorper sapien lacus, eu posuere odio luctus non.
-                            Nulla lacinia, eros vel fermentum consectetur, risus p</p>
-                        <h5>john smith</h5>
-                    </div>
-
-                    <!-- Slide -->
-                    <div class="testi-in"> <i class="fa fa-quote-left"></i>
-                        <p>Phasellus lacinia fermentum bibendum. Interdum et malesuada fames ac ante ipsum
-                            primis in faucibus. Sed ullamcorper sapien lacus, eu posuere odio luctus non.
-                            Nulla lacinia, eros vel fermentum consectetur, risus p</p>
-                        <h5>john smith</h5>
-                    </div>
+                <div class="item">
+                    <img src="images/products/home.jpeg" alt="New York">
                 </div>
             </div>
 
-            <!-- Img -->
-            <div class="col-sm-6"> <img src="images/testi-avatar.jpg" alt="" width="550px" height="422px"> </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
+    </div>
     </div>
 </section>
 
 <!-- About -->
-<section class="small-about padding-top-150 padding-bottom-150">
+<section class="small-about padding-top-100 padding-bottom-50">
     <div class="container">
 
         <!-- Main Heading -->
         <div class="heading text-center">
-            <h4>about ecoshop</h4>
+            <h4>Dịch vụ của chúng tôi</h4>
             <p>Phasellus lacinia fermentum bibendum. Interdum et malesuada fames ac ante ipsumien lacus, eu
                 posuere odio luctus non. Nulla lacinia,
                 eros vel fermentum consectetur, risus purus tempc, et iaculis odio dolor in ex. </p>
@@ -196,14 +247,8 @@
             @for ($i = 0; $i < 8; $i++) <!-- Item -->
                 <div class="item">
                     <!-- Images -->
-                    <img class="img-1" src="images/item-img-1-1.jpg" alt=""> <img class="img-2"
-                        src="images/item-img-1-1-1.jpg" alt="">
+                    <img class="img-1" src="images/products/home.jpeg" alt="">
                     <!-- Overlay  -->
-                    <div class="overlay">
-                        <!-- Price -->
-                        <div class="position-center-center"> <a href="images/item-img-1-1.jpg" data-lighter><i
-                                    class="icon-magnifier"></i></a> </div>
-                    </div>
                     <!-- Item Name -->
                 </div>
                 @endfor
@@ -211,13 +256,12 @@
         </div>
 
         <div class="row margin-top-50">
-            @for ($i = 0; $i < 3; $i++) 
-            <div class="col-md-4">
+            @for ($i = 0; $i < 3; $i++) <div class="col-md-4">
                 <h6>Câu chuyện VIPHOME</h6>
                 <hr>
                 <div class="row">
                     <div class="col-sm-4">
-                        <img src="images/item-img-1-1.jpg" alt="" width="100px" height="100px">
+                        <img src="images/products/old-man-1.jpeg" alt="" width="100px" height="100px">
                     </div>
                     <div class="col-sm-8">
                         <p class="blog-title">VIHome trao vàng tài lộc đến anh Nhưỡng - Hồ Tùng Mậu</p>
@@ -229,33 +273,58 @@
                     <li class="blog-menu">Dapibus ac facilisis in</li>
                     <li class="blog-menu">This is a light list group item</li>
                     <li class="blog-menu">This is a dark list group item</li>
-                  </ul>
+                </ul>
+        </div>
+        @endfor
+
+    </div>
+
+</section>
+
+<section>
+    <div class="container-achievement padding-top-50 padding-bottom-100">
+        <div class="container">
+
+            <!-- Main Heading -->
+            <div class="heading text-center margin-bottom-0">
+                <h4>Đối tác của chúng tôi</h4>
+                <hr style="width: 80%; margin: auto;">
+                <p class="margin-bottom-0 margin-top-20">VIPHOME là đơn vị hàng đầu nội thất với đội ngũ kiến trúc sư
+                    trẻ trung, nhiệt huyết, có tay nghề cao nhiều năm kinh nghiệm <br>
+                    VIPHOME cam kết sẽ làm vừa lòng khách hàng
+                </p>
+            </div>
+
+            <div class="row padding-top-50">
+                @for ($i = 0; $i < 4; $i++) <div class="col-md-3 text-center">
+                    <img src="images/product-1.jpg" alt="" width="250px" height="150px">
             </div>
             @endfor
+        </div>
+    </div>
 
     </div>
 
-    <!-- Social Icons -->
-    <ul class="social_icons">
-        <li><a href="#."><i class="icon-social-facebook"></i></a></li>
-        <li><a href="#."><i class="icon-social-twitter"></i></a></li>
-        <li><a href="#."><i class="icon-social-tumblr"></i></a></li>
-        <li><a href="#."><i class="icon-social-youtube"></i></a></li>
-        <li><a href="#."><i class="icon-social-dribbble"></i></a></li>
-    </ul>
-
-    </div>
 </section>
-<section class="news-letter padding-top-150 padding-bottom-150">
-    <div class="container">
+
+
+<section class="small-about news-letter padding-top-50 padding-bottom-50">
+    <ul class="social_icons">
+        <li><a href="#."><i style="color: #ffffff" class="icon-social-facebook"></i></a></li>
+        <li><a href="#."><i style="color: #ffffff" class="icon-social-twitter"></i></a></li>
+        <li><a href="#."><i style="color: #ffffff" class="icon-social-tumblr"></i></a></li>
+        <li><a href="#."><i style="color: #ffffff" class="icon-social-youtube"></i></a></li>
+        <li><a href="#."><i style="color: #ffffff" class="icon-social-dribbble"></i></a></li>
+    </ul>
+    <div class="container padding-top-50">
+        <!-- Social Icons -->
         <div class="heading light-head text-center margin-bottom-30">
-            <h4>NEWSLETTER</h4>
-            <span>Phasellus lacinia fermentum bibendum. Interdum et malesuada fames ac ante ipsumien lacus,
-                eu posuere odi </span>
+            <h4>Đăng kí nhận tin</h4>
+            <span>Để lại email của bạn để nhận thông báo khuyến mãi mới nhất từ Eric Decor </span>
         </div>
         <form>
-            <input type="email" placeholder="Enter your email address" required>
-            <button type="submit">SEND ME</button>
+            <input type="email" placeholder="Nhập vào email của bạn" required>
+            <button type="submit">Gửi</button>
         </form>
     </div>
 </section>
