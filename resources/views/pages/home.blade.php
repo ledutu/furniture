@@ -36,7 +36,7 @@
 </section>
 
 <!-- Popular Products -->
-<section class="padding-bottom-150">
+<section class="padding-bottom-100">
     <div class="container">
 
         <!-- Main Heading -->
@@ -50,7 +50,7 @@
         <!-- Popular Item Slide -->
         <div class="row">
             @for ($i = 0; $i < 8; $i++) <!-- Item -->
-                <div class="col-md-3 text-center margin-bottom-50">
+                <div class="col-md-3 col-sm-6 col-xs-12 text-center margin-bottom-50">
                     <a href="">
                         <!-- Item img -->
                         <img class="img-1" src="images/products/sofa-1.jpeg" alt="" width="270px" height="250px">
@@ -79,7 +79,7 @@
 
 
 <!-- San pham khuyen mai -->
-<section class="padding-bottom-150">
+<section class="padding-bottom-100">
     <div class="container">
 
         <!-- Main Heading -->
@@ -120,7 +120,7 @@
         <!-- Popular Item Slide -->
         <div class="row">
             @for ($i = 0; $i < 8; $i++) <!-- Item -->
-                <div class="col-md-3 text-center margin-bottom-50">
+                <div class="col-md-3 col-sm-6 col-xs-12 text-center margin-bottom-50">
                     <a href="">
                         <!-- Item img -->
                         <img class="img-1" src="images/products/sofa-1.jpeg" alt="" width="270px" height="250px">
@@ -144,7 +144,7 @@
     </div>
 </section>
 
-<section class="padding-top-100 padding-bottom-100">
+<section class="padding-top-0 padding-bottom-100">
     <div class="container">
 
         <!-- Main Heading -->
@@ -163,6 +163,7 @@
                 <div class="item">
                     <!-- Images -->
                     <img class="img-1" src="images/products/sofa-1.jpeg" alt="">
+
                     @if ($i == 1)
                     <div class="item-name">
                         <div class="heading text-center">
@@ -187,41 +188,36 @@
 </section>
 
 <!-- Testimonial -->
-<section class="testimonial padding-top-100">
+<section>
     <div class="container">
         <div class="heading text-center">
             <h4>Hình ảnh khách hàng thực tế</h4>
         </div>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-                <div class="item active">
-                    <img src="images/products/home.jpeg" alt="Los Angeles">
+        <div class="text-center">
+            <div id="carousel-example-generic" class="carousel slide text-center" data-ride="carousel"
+                style="width: 70%; height: 500px; margin-left:auto; margin-right:auto">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    @for ($i = 0; $i < 3; $i++) <div class="item {{$i == 0? 'active': ''}}">
+                        <img src="images/blog-list-img-1-5.jpg" alt="" width="600px">
+                        <div class="carousel-caption">
+                            <h6>Nguyen Tran Tri Lap</h6> <br>
+                            <p class="margin-top-0">VIPHOME tự hào hàng đầu trong lĩnh vực nội thất</p>
+                            <br>
+                            <a href="" style="color: #ffe115">Xem chi tiết</a>
+                        </div>
                 </div>
+                @endfor
 
-                <div class="item">
-                    <img src="images/products/home.jpeg" alt="Chicago">
-                </div>
-
-                <div class="item">
-                    <img src="images/products/home.jpeg" alt="New York">
-                </div>
             </div>
 
-            <!-- Left and right controls -->
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
         </div>
@@ -246,10 +242,16 @@
 
             @for ($i = 0; $i < 8; $i++) <!-- Item -->
                 <div class="item">
-                    <!-- Images -->
-                    <img class="img-1" src="images/products/home.jpeg" alt="">
-                    <!-- Overlay  -->
-                    <!-- Item Name -->
+                    <a href="">
+                        <!-- Images -->
+                        <img class="img-1" src="images/products/home.jpeg" alt="">
+                        <div style="width: 100%; height: 100%; background-color: black"></div>
+                        <div class="overlayImage text-center">
+                            <p class="centered">Le Duc TUng</p>
+                        </div>
+                        <!-- Overlay  -->
+                        <!-- Item Name -->
+                    </a>
                 </div>
                 @endfor
 
@@ -259,20 +261,23 @@
             @for ($i = 0; $i < 3; $i++) <div class="col-md-4">
                 <h6>Câu chuyện VIPHOME</h6>
                 <hr>
+
                 <div class="row">
-                    <div class="col-sm-4">
-                        <img src="images/products/old-man-1.jpeg" alt="" width="100px" height="100px">
-                    </div>
-                    <div class="col-sm-8">
-                        <p class="blog-title">VIHome trao vàng tài lộc đến anh Nhưỡng - Hồ Tùng Mậu</p>
-                        <p class="blog-content">Các mẫu thiết kế phòng ngủ nhỏ siêu đẹp</p>
-                    </div>
+                    <a href="">
+                        <div class="col-sm-4">
+                            <img src="images/products/old-man-1.jpeg" alt="" width="100px" height="100px">
+                        </div>
+                        <div class="col-sm-8">
+                            <p class="blog-title">VIHome trao vàng tài lộc đến anh Nhưỡng - Hồ Tùng Mậu</p>
+                            <p class="blog-content">Các mẫu thiết kế phòng ngủ nhỏ siêu đẹp</p>
+                        </div>
+                    </a>
                 </div>
 
                 <ul class="list-group" style="padding-left: 20px">
-                    <li class="blog-menu">Dapibus ac facilisis in</li>
-                    <li class="blog-menu">This is a light list group item</li>
-                    <li class="blog-menu">This is a dark list group item</li>
+                    <a href=""><li class="blog-menu">Dapibus ac facilisis in</li></a>
+                    <a href=""><li class="blog-menu">Dapibus ac facilisis in</li></a>
+                    <a href=""><li class="blog-menu">Dapibus ac facilisis in</li></a>
                 </ul>
         </div>
         @endfor

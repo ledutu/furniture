@@ -1241,7 +1241,7 @@ header .is-sticky .sticky .user-basket .dropdown-menu {
 /* .arrival-block .item:hover .overlay {
 	opacity: 1;
 } */
-/* .arrival-block .overlay a {
+.arrival-block .overlay a {
 	height: 71px;
 	width: 71px;
 	display: inline-block;
@@ -1250,7 +1250,7 @@ header .is-sticky .sticky .user-basket .dropdown-menu {
 	text-align: center;
 	line-height: 71px;
 	color: #fff;
-} */
+}
 .arrival-block .price {
 	position: absolute;
 	right: 20px;
@@ -1293,10 +1293,10 @@ header .is-sticky .sticky .user-basket .dropdown-menu {
 	left: -100%;
 	position: relative;
 } */
-/* .arrival-block .item .img-2 {
+.arrival-block .item .img-2 {
 	position: absolute;
 	left: 100%;
-} */
+}
 .arrival-block .item:hover .img-2 {
 	left: 0px;
 }
